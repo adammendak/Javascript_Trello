@@ -72,10 +72,23 @@ h1 + button {
 }
 .column ul button {
     display: inline-block;
+    width: 30px;
+    margin: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: red;
+    font-size: 20px;
 }
 .column ul p {
     display: inline;
+    font-size: 20px;
 }
 .column ul {
-    min-height: 50px;
+    min-height: inherit;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.column ul li {
+    line-height: 30px;
 }
